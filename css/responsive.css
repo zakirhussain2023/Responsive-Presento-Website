@@ -1,0 +1,123 @@
+@media (min-width:320px) and (max-width:767px)
+{
+    .container{
+        width: 100%;
+    }
+    .col_sm_6{
+        width:50%;
+        flex:0 0 auto;
+    }
+    .col_sm_12{
+        width:100%;
+        flex:0 0 auto;
+    }
+
+    .disp_none{
+        display: none;
+    }
+    
+    .banner{
+        height: 200vh;
+    }
+
+    .banner1_cnt,.cont1{
+        text-align: center;
+    }
+    .data_cnt{
+        margin-top: 45px;
+    }
+
+    .col_order1{
+        order:1;
+    }
+    .col_order2{
+        order:2;
+    }
+
+    .input-data input[type="email"],input[type="text"]{
+        width: 86%;
+    }
+    .portfolio_details {
+        content: "";
+        position: absolute;
+        left: 22px;
+        right: 0;
+        top: 80px;
+        bottom: 0px;
+        font-size: 10px;
+        visibility: hidden;
+        line-height: 1.8;
+        opacity: 0;
+        z-index: 3;
+      }
+      .testi{
+        width: 238px;
+      }
+}
+
+@media (min-width:768px) and (max-width:999px)
+{
+    .container{
+        width: 90%;
+    }
+    .col_md_6{
+        width:50%;
+        flex:0 0 auto;
+        padding:0 15px;
+    }
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
+    }
+
+    .col_md_3{
+    width:25%;
+	flex:0 0 auto;
+	padding:0 15px;
+    }
+    
+    .col_md_12{
+        width:100%;
+        flex:0 0 auto;
+        padding:0 15px;
+    }
+     .disp1_none{
+        display: none;
+    }
+    
+    .banner1_cnt,.cont1{
+        text-align: center;
+    }
+    .data_cnt{
+        margin-top: 45px;
+    }
+
+    .input-data input[type="email"],input[type="text"]{
+        width: 86%;
+    }
+    .portfolio_details {
+        content: "";
+        position: absolute;
+        left: 22px;
+        right: 0;
+        top: 127px;
+        font-size: 10px;
+        bottom: 0px;
+        visibility: hidden;
+        line-height: 1.8;
+        opacity: 0;
+        z-index: 3;
+      }
+    .ban_cnt{
+        text-align: center;
+    }
+    
+    .testi{
+        font-size:13px;
+    }
+    .card_heading{
+        margin-left: 44px;
+    }
+}
